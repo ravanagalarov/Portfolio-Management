@@ -16,5 +16,5 @@ public class ProjectResponse {
 
     private String description;
 
-    private Portfolio portfolio;
+    private Long portfolioId;
 }

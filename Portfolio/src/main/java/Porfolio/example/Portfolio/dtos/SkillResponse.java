@@ -17,5 +17,5 @@ public class SkillResponse {
 
     private Level level;
 
-    private Portfolio portfolio;
+    private Long portfolioId;
 }

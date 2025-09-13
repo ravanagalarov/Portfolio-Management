@@ -15,13 +15,9 @@ public class PortfolioResponse {
 
     private Long id;
     private String title;
-    private User user;
 
-    private List<Project> projects = new ArrayList<>();
-
-    private List<Experience> experiences = new ArrayList<>();
-
-    private List<Skill> skills = new ArrayList<>();
-
-    private List<Education> educations = new ArrayList<>();
+    private List<ProjectResponse> projects = new ArrayList<>();
+    private List<ExperienceResponse> experiences = new ArrayList<>();
+    private List<SkillResponse> skills = new ArrayList<>();
+    private List<EducationResponse> educations = new ArrayList<>();
 }
